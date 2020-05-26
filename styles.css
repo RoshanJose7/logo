@@ -10,75 +10,77 @@ body {
   background-color: black;
 }
 
-#logo {
+#logo-1 {
   position: absolute;
-  left: 50%;
+  left: 25%;
   top: 50%;
   transform: translate(-50%, -50%);
-  animation: fill 0.5s ease forwards 3.5s;
+  animation: fill 0.5s ease forwards 4s;
 }
 
-#logo path:nth-child(1) {
+#logo-1 path:nth-child(1) {
   stroke-dasharray: 608.3059692382812;
   stroke-dashoffset: 608.3059692382812;
   animation: line-anim 2s ease forwards;
 }
 
-#logo path:nth-child(2) {
+#logo-1 path:nth-child(2) {
   stroke-dasharray: 368.0203552246094;
   stroke-dashoffset: 368.0203552246094;
   animation: line-anim 2s ease forwards 0.3s;
 }
 
-#logo path:nth-child(3) {
+#logo-1 path:nth-child(3) {
   stroke-dasharray: 405.5307312011719;
   stroke-dashoffset: 405.5307312011719;
   animation: line-anim 2s ease forwards 0.6s;
 }
 
-#logo path:nth-child(4) {
+#logo-1 path:nth-child(4) {
   stroke-dasharray: 511.76617431640625;
   stroke-dashoffset: 511.76617431640625;
   animation: line-anim 2s ease forwards 0.9s;
 }
 
-#logo path:nth-child(5) {
+#logo-1 path:nth-child(5) {
   stroke-dasharray: 429.6968994140625;
   stroke-dashoffset: 429.6968994140625;
   animation: line-anim 2s ease forwards 1.2s;
 }
 
-#logo path:nth-child(6) {
+#logo-1 path:nth-child(6) {
   stroke-dasharray: 447.8401184082031;
   stroke-dashoffset: 447.8401184082031;
   animation: line-anim 2s ease forwards 1.5s;
 }
 
-#logo path:nth-child(7) {
-  stroke-dasharray: 364.7409362792969;
-  stroke-dashoffset: 364.7409362792969;
-  animation: line-anim 2s ease forwards 1.8s;
+#logo-2 {
+  position: absolute;
+  left: 50%;
+  top: 75%;
+  transform: translate(-50%, -50%);
+  animation: fill 0.5s ease forwards 4s;
 }
 
-#logo path:nth-child(8) {
+#logo-2 path:nth-child(1) {
   stroke-dasharray: 368.01922607421875;
   stroke-dashoffset: 368.01922607421875;
   animation: line-anim 2s ease forwards 2.1s;
 }
 
-#logo path:nth-child(9) {
+#logo-2 path:nth-child(2) {
   stroke-dasharray: 405.53094482421875;
   stroke-dashoffset: 405.53094482421875;
   animation: line-anim 2s ease forwards 2.4s;
 }
 
-#logo path:nth-child(10) {
+#logo-2 path:nth-child(3) {
   stroke-dasharray: 450.6268310546875;
   stroke-dashoffset: 450.6268310546875;
   animation: line-anim 2s ease forwards 2.7s;
 }
 
-#logo path:nth-child(11) {
+#logo-2 path:nth-child(4) {
   stroke-dasharray: 608.3059692382812;
   stroke-dashoffset: 608.3059692382812;
   animation: line-anim 2s ease forwards 3s;
